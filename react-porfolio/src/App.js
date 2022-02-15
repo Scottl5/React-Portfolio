@@ -1,12 +1,21 @@
 import React from "react";
-import Navbar from "./components/navbar";
+import PortfolioContainer from "./components/PortfolioContainer";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <main>
+      <PortfolioContainer />
+      <Footer />;
+    </main>
   );
 }
 
 export default App;
+
+// return (
+//   <body>
+//     <Navbar />
+//     <main></main>
+//   </body>
+// );

@@ -1,0 +1,36 @@
+:root {
+  --black: #231f20;
+  --light: #eaeaea;
+  --gold: #ad974f;
+}
+/* .page-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 10px;
+} */
+
+#contact {
+  flex: 0 0 20%;
+  text-align: center;
+  margin-right: 30px;
+  border-right: solid var(--gold) 4px;
+  line-height: 1.1;
+  padding-right: 15px;
+}
+.info {
+  list-style: none;
+  margin-right: 15px;
+  color: var(--black);
+  text-decoration: underline var(--gold) 3px;
+}
+
+.page-section > ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.li {
+  display: inline;
+}
