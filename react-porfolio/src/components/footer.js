@@ -7,7 +7,10 @@ function Footer() {
       <h3 id="contact"> Contact Me</h3>
       <ul>
         <li className="info"> 603-903-2368</li>
-        <li className="info">scott.labelle@snhu.edu</li>
+        <a id="email" href="mailto:scott.labelle@snhu.edu">
+          {" "}
+          scott.labelle@snhu.edu
+        </a>
         <a href="https://github.com/Scottl5" target="_blank">
           <li className="info"> My GitHub </li>
         </a>
