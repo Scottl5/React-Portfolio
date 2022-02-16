@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
+import pdf from "../assets/projects/ScottLaBelleCodingResume.pdf";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
@@ -36,7 +37,7 @@ function Navbar({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             className="nav-a"
-            href="./ScottLaBelleCodingResume.pdf"
+            href={pdf}
             onClick={() => handlePageChange("Resume")}
             target="_blank"
           >
